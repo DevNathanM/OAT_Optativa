@@ -1,0 +1,49 @@
+#container{
+	
+	padding: 5px;
+
+}
+
+#header{
+	border: 1px solid #F0F8FF;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+.main .formulario{
+	border: 1px solid #F0F8FF;
+	text-align: center;
+	margin: 20px 0 20px 0; 
+
+}
+
+#menu{
+	border: 1px solid #F0F8FF;	
+	margin: 5px;
+	padding: 5px;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{	
+	display: inline;
+	text-decoration-color: black;
+
+}
+
+#menu ul li button{
+	width: 80px;
+	height:30px;
+
+}
+
+.main{	
+	margin: 10px 5px 10px 5px;	
+	padding: 5px;
+}
+

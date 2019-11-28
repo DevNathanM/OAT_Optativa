@@ -1,0 +1,44 @@
+body,html{
+	height: 100%;
+	background:url(https://www.merieuxnutrisciences.com/pt/sites/merieux_nutrisciences_pt/files/styles/master_page_image/public/thumbnails/image/merieux_nutrisciences_enti_pubblici_0.png?itok=b9hTySPi) no-repeat fixed;
+	background-size: cover;
+}
+
+#container{
+	
+	height: 100%;
+	display: grid;
+	grid-template-rows: 25% minmax(min-content,8%) auto 15%;
+}
+
+#header{
+	border: 1px solid #F0F8FF;
+	opacity: 0.5 ;
+	
+	
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: auto;
+}
+
+#main .home{
+	border: 1px solid #F0F8FF;
+	text-align: center;
+	background-color: white;
+}
+
+#main .formulario{
+	border: 1px solid #F0F8FF;
+	text-align: center;
+}
+
+#menu{
+	display: inherit;
+	
+}
+#menu ul{
+	display: block;
+}
